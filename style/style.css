@@ -4,7 +4,7 @@
 }
 
 .header{
-    background: #fff;
+    background: #FFF1E7;
     background-image: url(../images/header_bg.png),url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
@@ -57,6 +57,166 @@ nav li{
     margin-bottom: 20px;
 }
 .banner_description{
-    font-size: 18px;
+    font-size: 16px;
     color: #757575;
+    margin: 20px 0;
+    line-height: 30px;
+}
+.douwloadbtn{
+    border: 3px solid #FD6E0A;
+    margin: 0 10px;
+}
+.contactbtn{
+    background: none;
+    color: #FD6E0A;
+    border: 3px solid #FD6E0A;
+    margin: 0 10px;
+}
+
+/* == Main Section == */
+.mainSection{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+/* == About Me Section Design == */
+.aboutSection{
+    text-align: center;
+    background-color: #FFF1E7;
+    padding: 100px;
+    margin-top: 150px;
+}
+.aboutSection > .aboutDescription{
+    padding: 50px 50px;
+    line-height: 30px;
+}
+.aboutSection > ul{
+    display: flex;
+    justify-content: center;
+}
+.aboutSection > ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+.aboutSection > ul li h4{
+    margin: 10px 0;
+}
+
+/* == What I Do Section Design == */
+.whatIDo{
+    text-align: center;
+    margin: 100px 0;
+}
+.whatIDoDescription{
+    padding: 50px 100px;
+    line-height: 30px;
+}
+.whatIDoCard{
+    text-align: left;
+    display: flex;
+}
+.whatIDoCardItem{
+    background: #fff;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0px 5px 40px 15px #ddd;
+    padding: 40px 30px;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+.cardItemHeading{
+    margin: 20px 0;
+}
+.cardItemDescription{
+    line-height: 30px;
+}
+
+/* == Resume Section Design == */
+
+.resumeAndExperienceSection{
+    display: flex;
+}
+.resumeHeading{
+    text-align: center;
+    margin: 50px 0;
+}
+.educationPart{
+    width: 570px;
+}
+.educationHeading{
+    margin: 10px 0;
+    font-size: 25px;
+    color: #474747;
+}
+.qualificatio{
+    padding-right: 30px;
+}
+.qualificationHeading{
+    margin: 10px 0;
+    font-size: 20px;
+    color: #474747;
+}
+.qualificationSubHeading{
+    margin: 10px 0;
+    font-size: 15px;
+    color: #757575;
+}
+.qualificationDescription{
+    margin: 25px 0;
+    color: #757575;
+    padding-right: 30px;
+}
+.resumeBtn{
+    text-align: center;
+    margin: 50px 0;
+}
+
+/* == Footer Section Design == */
+
+.footerMainSection{
+    background-color: #FFF1E7;
+    padding: 100px 0;
+}
+.footerSection{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+.footerLeft{
+    width: 570px;
+}
+.footerLeftHeading{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.footerLeftDescription{
+    margin: 20px 0;
+    line-height: 30px;
+    padding-right: 50px;
+}
+.footerLeftIcon ul{
+    display: flex;
+    padding: 0;
+    margin: 30px 0;
+}
+.footerLeftIcon ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+/* == Form Design == */
+
+input{
+    padding: 20px 10px;
+    width: 400px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+textarea{
+    padding: 20px 10px;
+    width: 400px;
+    margin: 10px 0 20px 0;
+    border-radius: 5px;
+    border: none;
 }
