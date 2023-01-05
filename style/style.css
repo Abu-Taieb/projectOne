@@ -8,6 +8,7 @@
     background-image: url(../images/header_bg.png),url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    padding-top: 50px;
 }
 /* == nav style ==*/
 .nav-title {
@@ -20,7 +21,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0 200px 50px 200px;
 }
 nav ul{
     display: flex;
